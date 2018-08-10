@@ -1,0 +1,30 @@
+{
+  "name": "caravan-search-nl",
+  "version": "1.0.0",
+  "description": "Searches caravans.nl for desired caravans",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prolane/caravan-search-nl.git"
+  },
+  "keywords": [
+    "caravans.nl",
+    "nodejs",
+    "caravans",
+    "search",
+    "nl"
+  ],
+  "author": "Gerard Laan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prolane/caravan-search-nl/issues"
+  },
+  "homepage": "https://github.com/prolane/caravan-search-nl#readme",
+  "dependencies": {
+    "node-html-parser": "^1.1.8",
+    "request": "^2.87.0"
+  }
+}
