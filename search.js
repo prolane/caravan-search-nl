@@ -6,12 +6,16 @@ var resultsList = [];
 // #### LIST OF CARAVANS ####
 // ##########################
 var caravans = [
+  {Brand: 'Adria', model: '462 PK'},
   {Brand: 'Adria', model: '552 PK'},
   {Brand: 'Adria', model: '542 PK'},
   {Brand: 'Burstner', model: '490 TK'},
+  {Brand: 'Burstner', model: '495 TK'},
+  {Brand: 'Burstner', model: 'Averso 480 TK'},
   {Brand: 'Dethleffs', model: '540 SK'},
+  {Brand: 'Dethleffs', model: '500 TK'},
   {Brand: 'Knaus', model: '500 FDK'},
-  {Brand: 'Hobby', model: '500 kmfe'}
+  {Brand: 'Knaus', model: '500 QDK'}
 ];
 
 
@@ -31,7 +35,7 @@ var options = {
         prijsVan: '2500',
         prijsTot: '25000',
         bouwjaarVan: '2001',
-        gewichtTot: '1500',
+        gewichtTot: '1600',
         itemPerPage: '122'
     }
 };
